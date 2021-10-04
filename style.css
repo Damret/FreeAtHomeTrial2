@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-sub {
+    padding: 0 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+    width: 15%;
+}
+
+.about .row {
+    margin-right: 0;
+}
+
+.about {
+    background-color: #ececec;
+}
+
+.about img {
+    width: 100%;
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+}
+
+.display-4 {
+    height: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    margin:  25px 0;
+}
+
+.about h1::after {
+    content: '';
+    display: block;
+    border-bottom: 5px solid #000;
+    width: 15%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.about li {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 25px;
+    list-style: disc;
+}
+
+.about ol {
+    padding: 0 50px;
+}
+
+.step img {
+    max-width: 100% !important;
+}
+
+.stepText {
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    text-align: justify;
+    color: #999;
+}
+
+
+.sidebar {
+    margin-top: 220px;
+}
+
+.field p {
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.field p a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.content {
+    margin-top: 85px;
+}
+
+.caption img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title h1 {
+    font-size: 70px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.freeText {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+ol {
+    list-style-type: disc;
+}
+
+.faq ol {
+    padding-left: 60px;
+}
+.term ol {
+    padding-left: 60px;
+}
+
+.outdoorImg {
+    width: 100%;
+}
+
+.outdoorImg img {
+    width: 100%;
+    height: 440px;
+}
+.freeText>.col-12 {
+    padding: 0;
+}
+
+.flex-center {
+	align-items: center;
+}
+.accordion-button{
+	margin-bottom: 10px;
+}
+.accordion-body {
+	margin-top: 15px;
+	padding: 25px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+}
+
+.circle-icon {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2b4eff;
+    border: 5px solid #b2bfff;
+	color: #fff;
+	margin-left: -20px;
+	margin-right: 10px;
+	transform: scale(1.2);
+}
+.accordion-item{
+	border: 0px!important;
+}
+.accordion-button:not(.collapsed){
+	border: 0px!important;
+	color: #0c63e4;
+    background-color: #ffffff;
+    box-shadow: inset 0 0px 0 rgb(0 0 0 / 13%);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 992px) { 
+
+ }
+
+
+ 
+ @media (min-width: 576px) { 
+
+    
+    }
+
+
+    
